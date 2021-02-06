@@ -1,0 +1,374 @@
+/*start setting*/
+.setting{
+    position: fixed;
+    background-color: darkmagenta;
+    min-height: 100vh;
+    width: 150px;
+    z-index: 99999;
+    left: -150px;
+    top: 80px;
+    transition: all 2s;
+}
+.setting.open{ left: 0;}
+.setting .setting-toggle{
+    position: absolute;
+    right: -25px;
+    top: 20px;
+    background-color: rgba(6,3,8,.2);
+    cursor: pointer;
+}
+.setting .setting-toggle i{
+    width: 25px;
+    height: 22px;
+    text-align: center;
+    color: navy;
+}
+.setting .setting-content{
+    border: 1px solid thistle;
+    margin-top: 15px;
+    height: 80px;
+    background-color: rgba(4,8,9,.2);
+}
+.setting .setting-content h2{
+    font-size: 16px;
+    margin-top: 5px;
+    color: blueviolet;
+}
+.setting .setting-content .bullets-toggle{ position: relative; bottom: -12px;}
+.setting .setting-content .bullets-toggle span.show{
+    position: absolute;
+    left: 10px;
+    background: green;
+    color: aliceblue;
+    width: 41px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.setting .setting-content .bullets-toggle .active{opacity: .5;}
+.setting .setting-content .bullets-toggle span.hide{
+    position: absolute;
+    right: 10px;
+    background-color: green;
+    color: aliceblue;
+    width: 38px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.setting .setting-content h3{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    color: blueviolet;
+}
+.setting .setting-content button{
+    margin-left: 36px;
+    margin-top: 7px;
+    border: none;
+    background: rgba(2,2,2,.6);
+    color: white;
+    border-radius: 4px;
+    outline: none;
+}
+.setting .en-ar > h2{
+    font-size: 13px;
+    font-weight: bold;
+}
+.setting .en-ar .bullets-toggle > a.english{
+    width: 45px;
+    position: absolute;
+    font-size: 13px;
+    background-color: green;
+    color: white;
+    left: 7px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+.setting .en-ar .bullets-toggle > a.arabic{
+    width: 45px;
+    position: absolute;
+    font-size: 13px;
+    background-color: green;
+    color: white;
+    right: 7px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+/*end setting*/
+/*start bullets*/
+.bullets{
+    width: 40px;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    margin: 10px auto;
+    z-index: 99999;
+}
+.bullets .bullets-cont{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid deeppink;
+    margin: 0 -27px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.bullets .bullets-cont:hover .bull-text{ display: block; }
+.bullets .bull-text{
+    position: absolute;
+    font-size: 15px;
+    right: 40px;
+    background: crimson;
+    width: 81px;
+    text-align: center;
+    cursor: default;
+    pointer-events: none;
+    color: antiquewhite;
+    border-radius: 5px;
+    display: none;
+}
+.bullets .bull-text:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px;
+    top: 3px;
+    border-color: transparent transparent transparent crimson;
+    position: absolute;
+    right: -16px;
+}
+/*end bullets*/
+/*start navar*/
+.navbar .fci-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: linen;
+    letter-spacing: 1px;
+}
+.navbar .fci-brand span{ color: salmon; }
+.navbar .fci-brand:hover{ color: lime; }
+.navbar-dark .navbar-nav .active>.nav-link{ background-color: salmon; }
+.navbar ul .dropdown:hover{ background-color: slateblue; }
+.dropdown-item{ transition: all 1s; }
+.dropdown-item:hover{ background-color: slateblue; padding-left: 30px; }
+.dropdown-menu{
+    background-color: gainsboro;
+    border-top: 1px solid deeppink;
+    width: 215px;
+}
+.ul-links{ margin-left: 360px; }
+/*end navbar*/
+/*start fci info section*/
+.fci-info{
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.fci-info h1{ font-size: 30px; color: tomato; }
+.fci-info p{ color: #3b3939b5; }
+.fci-info p span{ color: violet; font-weight: bold; }
+/*end fci info section*/
+/*start fci card*/
+.fci-card{
+    background-color: lavender;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.fci-card h2{
+    padding-bottom: 30px;
+    color: crimson;
+    font-size: 30px;
+}
+.fci-card .row{ margin-left: 270px; }
+.fci-card img{ height: 250px; }
+.fci-card .card-body h2{
+    padding-bottom: 8px;
+    font-size: 20px;
+    color: crimson;
+}
+.fci-card p{ line-height: 1.2; }
+/*end fci card*/
+/*start fci news*/
+.fci-news{
+    background: url('computers1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.fci-news .news-container{
+    background: rgba(1,7,4,0.4);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.fci-news h2{
+    padding-bottom: 10px;
+    color: orangered;
+    font-size: 30px;
+}
+.fci-news .news{ background: teal; position: relative; }
+.fci-news .news h3{
+    padding-top: 10px;
+    font-size: 28px;
+    padding-bottom: 8px;
+    color: aliceblue;
+}
+.fci-news .news a > img{
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.fci-news .news .p-cont{ padding: 0 5px 5px 5px; }
+.fci-news .news .read .read-more{
+    position: relative;
+    left: -113px;
+    color: antiquewhite;
+}
+.fci-news .news .read .read-more:hover{ color: gold; }
+/*end fci news*/
+/*start fci departments*/
+.fci-depart{
+    background-color: rgba(6,6,6,.3);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.fci-depart h3{
+    color: crimson;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.fci-depart .dep-cont img{
+    width: 200px;
+    height: 200px;
+    transition: all 1s ease-in-out;
+}
+.fci-depart .dep-cont img:hover{ transform: scale(0.9,0.8); transition: all 1s ease-in-out; }
+.fci-depart .dep-cont h4{ margin-top: 8px; transition: all 1s ease-in; }
+.fci-depart .dep-cont h4:hover{ color: tomato; transform: rotateY(360deg); }
+.fci-depart .dep-cont .content .read-more{ color: mediumslateblue; }
+.fci-depart .dep-cont .content .read-more:hover{ color: purple; }
+/*end fci departments*/
+/*start fci enrolling*/
+.fci-enrolling{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: rgba(2,2,2,0.8);
+    color: white;
+}
+.fci-enrolling h3{
+    padding-bottom: 10px;
+    color: yellowgreen;
+    font-size: 30px;
+}
+.fci-enrolling .enroll label{ position: relative; bottom: -7px; }
+.fci-enrolling .enroll input{
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    box-shadow: none;
+}
+.fci-enrolling .en-2{ position: relative; top: 94px; }
+/*end fci enrolling*/
+/*start contact us*/
+.contact-us{
+    padding-bottom: 20px;
+    padding-top: 50px;
+    background-color: darkgray;
+}
+.contact-us h3{
+    font-size: 30px;
+    padding-bottom: 80px;
+    color: crimson;
+}
+.contact-us .contact-cont .social i{ margin-left: 25px; }
+.contact-us .social .fa-facebook{ color: blue; cursor: pointer; }
+.contact-us .social .fa-instagram{ color: #609; cursor: pointer; }
+.contact-us .social .fa-whatsapp{ color: green; cursor: pointer; }
+.contact-us .contact-cont textarea{
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+.contact-us .contact-cont button{width: 234px;}
+/*end contact us*/
+/*start footer*/
+.footer{
+    background: crimson;
+    color: whitesmoke;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+/*end footer*/
+/*****************start animation icons**************************/
+/*start loading*/
+.loading{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    background-color: slategrey;
+    color: white;
+    top: 0;
+    left: 0;
+}
+.loading img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 550px;
+    top: 200px;
+}
+.loading p{
+    position: absolute;
+    left: 513px;
+    top: 390px;
+}
+/*end loading*/
+/*start scrolling اتلغت*/
+.scrolling{
+    position: fixed;
+    z-index: 99999;
+    background-color: rgba(2,2,2,.6);
+    right: 20px;
+    bottom: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: mediumseagreen;
+    cursor: pointer;
+}
+.scrolling .fa-angle-double-up{ display: none; }
+/*end scrolling*/
+/****************end animation icon************************/
+/*start media query*/
+@media (max-width:768px){
+    .setting{ display:none }
+    .bullets{ display: none; }
+    /*navbar*/
+    .navbar-dark .navbar-toggler{ width: 56px; margin-right: 0px; outline: none; }
+    .navbar-dark .navbar-collapse{ margin-right: 137px; }
+    .navbar-dark .ul-links{ margin-left:45px; }
+    .navbar-dark .ul-links li a{ padding-left: 5px; padding-right: 5px; }
+    .navbar-dark .dropdown-menu{ width: 100%; border: none; }
+    /*end navbar*/
+    .fci-info h1{ font-size: 19px; }
+    .fci-card h2{ font-size: 19px; }
+    .fci-card .row{ margin-left: 50px; }
+    .fci-card .card{ margin-bottom: 10px; }
+    .fci-news .news-container{ padding-top: 30px; }
+    .fci-news .news{margin-bottom:10px; }
+    .fci-depart{ padding-top: 30px; background-image: url(computer3.jpg);background-size: cover;}
+    .fci-depart .dep-cont{ margin-bottom: 15px; }
+    .fci-depart .dep-cont p{color: aliceblue;}
+    .fci-enrolling{ padding-top: 30px; }
+    .fci-enrolling .en-2{ position: relative; top: 10px; padding-bottom: 15px; }
+    .contact-us{ padding-top: 30px; padding-bottom: 0; }
+    .contact-us .contact-cont{ position: relative; top: -50px; padding-bottom: 30px; }
+    .footer{padding-top: 14px;}
+    .footer p{ font-size: 12px;font-weight: bold; }
+    .loading{ position: fixed; }
+    .loading img{ position: absolute; left: 100px; }
+}
+/*end media query*/
+

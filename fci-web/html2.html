@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--first mobile meta-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--bootstrap library-->
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <!--font-awesome kibrary-->
+        <link rel="stylesheet" href="all.min.css">
+        <!--my project css file-->
+        <link rel="stylesheet" href="css_rtl.css"> 
+        
+    </head>
+    <body>
+      <!--start setting box-->
+      <div class="setting">
+        <div class="container">
+          <div class="setting-toggle">
+            <i class="fas fa-cog"></i>
+          </div>
+          <div class="setting-content">
+            <h2 class="text-center">bullets toggle</h2>
+            <div class="bullets-toggle">
+              <span class="show active" data-display="yes">show</span>
+              <span class="hide" data-display="no">hide</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end setting box-->
+
+      <!--start bullets-->
+      <div class="bullets">
+        <div class="bullets-cont" data-pull=".fci-info">
+          <div class="bull-text">المعلومات</div>
+        </div>
+        <div class="bullets-cont" data-pull=".fci-card">
+          <div class="bull-text">الرؤساء</div>
+        </div>
+        <div class="bullets-cont" data-pull=".fci-news">
+          <div class="bull-text">الاخبار</div>
+        </div>
+        <div class="bullets-cont" data-pull=".fci-depart">
+          <div class="bull-text">الاقسام</div>
+        </div>
+        <div class="bullets-cont" data-pull=".fci-enrolling">
+          <div class="bull-text">التسحيل</div>
+        </div>
+        <div class="bullets-cont" data-pull=".contact-us">
+          <div class="bull-text">الاتصال</div>
+        </div>
+      </div>
+      <!--end bullets-->
+
+      <!--start navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-right">
+        <div class="container">
+          <a class="navbar-brand fci-brand" href="#">F<span>C</span>I</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse ul-parent" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ul-links">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  ادارة الكلية
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  الطلاب
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#"> جدول المحاضرات</a>
+                  <a class="dropdown-item" href="#">الخطة الدراسية</a>
+                  <a class="dropdown-item" href="#">المحاضرات</a>                  
+                  <a class="dropdown-item" href="#">المحاضرات االمسجلة</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  الاقسام
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">علوم الحاسب</a>
+                  <a class="dropdown-item" href="#">تقنية المعلومات</a>
+                  <a class="dropdown-item" href="#">نظم المعلومات</a>
+                  <a class="dropdown-item" href="#">الشبكات</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  الخدمات الالكترونية
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">فريق تقنية المعلومات</a>
+                  <a class="dropdown-item" href="#">اعضاء مواقع الكلية</a>
+                  <a class="dropdown-item" href="#">المكتبة الرقمية</a>
+                  <a class="dropdown-item" href="#">بنك المعرفة</a>
+                  <a class="dropdown-item" href="#">البريد</a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    اللغة
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="html2.html">عربى</a>
+                    <a class="dropdown-item" href="bootstr.html">انجليزى</a>
+            </ul>
+          </div>
+      </div>
+      </nav>
+      <!--end navbar-->
+
+      <!--start section of fci brief information-->
+      <section class="fci-info text-center">
+        <div class="container">
+          <h1>كلية الحاسبات والمعلومات</h1>
+          <hr>
+          <p class="lead">
+            يمكنك التعلم كيفية التعامل مع الحواسيب،تصميم المواقع،الالعاب والتطبيقات،وكيفية التعامل مع البيانات وتخزينهاوتنظيم الوقت...
+          </p>
+          <p class="lead">بدون  <span> التعلم الذاتى</span> لا يمكنك تعلم اي شي </p>
+        </div>
+      </section>
+      <!--end section of fci brief information-->
+
+      <!--start card members-->
+      <section class="fci-card text-center">
+        <div class="container">
+          <h2>رئيس الكلية والجامعة</h2>
+          <div class="row">
+            <!--start card1 bootstrap V4-->
+            <div class="col-lg-6 col-12">
+              <div class="card text-center" style="width: 15rem;">
+                  <img src="fci-head.jpg" alt="elzanaty">
+                  <div class="card-body">
+                    <h2>د/النميري زناتى</h2>
+                    <p class="lead">عميد كلية حاسبات ومعلومات ومحاضر بها</p>
+                    <a href="#" class="btn btn-info">رؤية المزيد</a>
+                  </div>
+              </div>
+            </div>
+            <!--end card1-->
+            <!--start card2-->
+            <div class="col-lg-6 col-12">
+              <div class="card text-center" style="width: 15rem;">
+                  <img src="sohag-uni-head.jpg" alt="ahmed aziz">
+                  <div class="card-body">
+                    <h2>د/احمد عزيز</h2>
+                    <p class="lead">رئيس جامعة سوهاج</p>
+                    <a href="#" class="btn btn-info">رؤيةالمزيد</a>
+                  </div>  
+              </div>
+            </div>
+            <!--end card2-->
+          </div>
+        </div>
+      </section>
+      <!--end card members-->
+
+      <!--start fci news-->
+      <section class="fci-news text-center">
+        <div class="news-container">
+          <div class="container">
+            <h2>اخبار الكلية</h2>
+            <div class="row">
+              <div class="col-lg-4 col-12">
+                <div class="news">
+                  <h3>خبر عاجل</h3>
+                  <div class="news-img">
+                    <a href="">
+                      <img src="fci_logo.png" alt="faculty of computer science">
+                    </a>
+                  </div>
+                  <div class="p-cont">
+                    <p>بداية الدراسة فى يوم 17 من شهر اكتوبر</p>
+                    <p>تم فتح قبول طلاب الثانوية من شعبة علمى علوم</p>
+                    <div class="read">
+                      <a href="" class="read-more">
+                        <i class="fab fa-readme"></i>قراءة المزيد
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="news">
+                  <h3>خبر هام لكل طلاب الجامعة</h3>
+                  <div class="news-img">
+                    <a href="">
+                      <img class="su-img" src="sohag-uni.jpg" alt="sohag university">
+                    </a>
+                  </div>
+                  <div class="p-cont">
+                    <p>فتح باب التحويل من والى الجامعة بداية من 16 اغسطس وميتد التحويل الى شهر من بدايته</p>
+                    <p>بدأت الجامعة فى استقبال الطلاب الجدد</p>
+                    <div class="read">
+                      <a href="" class="read-more">
+                        <i class="fab fa-readme"></i>قراءة المزيد
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="news">
+                  <h3>التخرج</h3>
+                  <div class="news-img">
+                    <a href="">
+                      <img class="su-img" src="sohag-uni.jpg" alt="sohag university">
+                    </a>
+                  </div>
+                  <div class="p-cont">
+                    <p>تم تخرج دفعة جديدة شهر 8-2020</p>
+                    <div class="read">
+                      <a href="" class="read-more">
+                        <i class="fab fa-readme"></i>قراءة المزيد
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!--end fci news-->
+
+      <!--start fci departments section-->
+      <section class="fci-depart text-center">
+        <div class="container">
+          <h3>الاقسام</h3>
+          <div class="row">
+            <div class="col-lg-3 col-12">
+              <div class="dep-cont">
+                <div class="img fc-cs">
+                    <img src="CS.jpg" alt="Computer science">
+                </div>
+                <h4 class="text-center">علوم الحاسب</h4>
+                <div class="content">
+                  <p class="lead">يهتم هذا المجال بالتصميم الخارجى والمعالجة والتحكم فى البيانات ...</p>
+                  <div class="read">
+                    <a href="" class="read-more">
+                      <i class="fab fa-readme"></i>قراءةالمزيد
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="dep-cont">
+                <div class="img">
+                    <img src="IT.jpg" alt="information Technology">
+                </div>
+                <h4>تقنية المعلومات</h4>
+                <div class="content">
+                  <p class="lead">يهتم هذا المجال بالبيانات وتخزينها وحل مشكلة اتصال الاجهزة ببعضها...</p>
+                  <div class="read">
+                    <a href="" class="read-more">
+                      <i class="fab fa-readme"></i>قراءةالمزيد
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="dep-cont">
+                <div class="img">
+                    <img src="IS.jpg" alt="information System">
+                </div>
+                <h4>نظم المعلومات</h4>
+                <div class="content">
+                  <p class="lead">يهتم هذا المجال بتنظيم البيانات والوقت وتحويل البيانات الى معلومات...</p>
+                  <div class="read">
+                    <a href="" class="read-more">
+                      <i class="fab fa-readme"></i>قراءةالمزيد
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="dep-cont">
+                <div class="img">
+                    <img src="Networks.jpg" alt="Networks">
+                </div>
+                <h4>الشبكات</h4>
+                <div class="content">
+                  <p class="lead">كيفية التعامل مع الاجهزة وربطها ببعضها وتوصيلها والتعامل مع الاسلاك وغيرها...</p>
+                  <div class="read">
+                    <a href="" class="read-more">
+                      <i class="fab fa-readme"></i>قراءةالمزيد
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end fci departments section-->
+
+      <!--start enrolling-->
+      <section class="fci-enrolling">
+        <div class="container">
+          <h3 class="text-center">التسجيل</h3>
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="enroll">
+                <label>الاسم</label>
+                <input class="form-control" type="text" placeholder="write your name">
+                <label>الايميل</label>
+                <input class="form-control" type="email" placeholder="your email">
+                <label>الرقم</label>
+                <input class="form-control" type="tel" placeholder="your phone number">
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="enroll en-2">
+                <p class="lead">لمتابعة اخبار الكلية عليك بالتسجيل فى الخانات المخصصة لها </p>
+                <button class="btn btn-danger btn-block">تسجيل</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end enrolling-->
+
+      <!--start contact us-->
+      <section class="contact-us text-center">
+        <div class="container">
+          <h3>الاتصال بنا</h3>
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="contact-cont">
+                <p class="lead">يمكنك متابعتنا من خلال وسائل التواصل الاجتماعى</p>
+                <div class="social text-center">
+                  <i class="fab fa-facebook fa-2x"></i>
+                  <i class="fab fa-instagram fa-2x"></i>
+                  <i class="fab fa-whatsapp fa-2x"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="contact-cont">
+                <textarea cols="30" rows="5" placeholder="ملاحاظاتك عن الموقع"></textarea><br>
+                <button class="btn btn-info btn-blocks">ارسال</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end contact us-->
+
+      <!--start footer-->
+      <section class="footer text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-9">
+              <div class="foot">
+                <p class="lead">جميع الحقوق محفوظة &copy; كلية الحاسبات والمعلومات جامعة سوهاج</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-3">
+              <div class="foot">
+                <p class="lead">صمم فى 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end footer-->
+
+      <!--start loading & scroling top-->
+      <!--start loading section-->
+      <section class="loading">
+          <img src="cs-college.png" alt="computer science of sohag university">
+          <p class="lead">كلية الحاسبات والمعلومات</p>
+      </section>
+      <!--end loading section-->
+
+      <!--strt scrolling-->
+     <!-- <div class="scrolling">
+        <i class="fas fa-angle-double-up"></i>
+      </div>-->
+      <!--end scrolling-->
+      <!--start loading & scroling top-->
+
+      <!--[if lt IE 9] internet explorer-->
+      <script src="html5shiv.min.js"></script>
+      <script src="respond.min.js"></script>
+      <!--[endif]-->
+      <!--jquery file-->      
+      <script src="jquery-3.5.1.min.js"></script>
+      <!--boootstrap js file-->
+      <script src="bootstrap.min.js"></script>
+      <!--my project js file-->
+      <script src="JSbootstr.js"></script>
+      <script src="jquery.nicescroll.min.js"></script>
+    </body>
+</html>

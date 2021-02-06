@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--first mobile meta-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--bootstrap library-->
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <!--font-awesome kibrary-->
+        <link rel="stylesheet" href="all.min.css">
+        <!--my project css file-->
+        <link rel="stylesheet" href="cssbootstr.css"> 
+        
+    </head>
+    <body>
+      <!--start setting box-->
+      <div class="setting">
+        <div class="container">
+          <div class="setting-toggle">
+            <i class="fas fa-cog"></i>
+          </div>
+          <div class="setting-content">
+            <h2 class="text-center">bullets toggle</h2>
+            <div class="bullets-toggle">
+              <span class="show active" data-display="yes">show</span>
+              <span class="hide" data-display="no">hide</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end setting box-->
+
+      <!--start bullets-->
+      <div class="bullets">
+        <div class="bullets-cont" data-pull=".fci-info">
+          <div class="bull-text">info</div>
+        </div>
+        <div class="bullets-cont" data-pull=".fci-card">
+          <div class="bull-text">heads</div>
+        </div>
+        <div class="bullets-cont" data-pull=".fci-news">
+          <div class="bull-text">news</div>
+        </div>
+        <div class="bullets-cont" data-pull=".fci-depart">
+          <div class="bull-text">department</div>
+        </div>
+        <div class="bullets-cont" data-pull=".fci-enrolling">
+          <div class="bull-text">form</div>
+        </div>
+        <div class="bullets-cont" data-pull=".contact-us">
+          <div class="bull-text">contact-us</div>
+        </div>
+      </div>
+      <!--end bullets-->
+
+      <!--start navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand fci-brand" href="#">F<span>C</span>I</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse ul-parent" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ul-links">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Faculty Administration
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Students
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Schedules</a>
+                  <a class="dropdown-item" href="#">Study Plan</a>
+                  <a class="dropdown-item" href="#">Courses</a>                  
+                  <a class="dropdown-item" href="#">Registered Lectures</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Departments
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Computer Science</a>
+                  <a class="dropdown-item" href="#">Information Technology</a>
+                  <a class="dropdown-item" href="#">Information System</a>
+                  <a class="dropdown-item" href="#">Computer Networks</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Electronic Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">IT-unit team</a>
+                  <a class="dropdown-item" href="#">Sites of Faculty Members</a>
+                  <a class="dropdown-item" href="#">Digital Library</a>
+                  <a class="dropdown-item" href="#">Bank of Knowledge</a>
+                  <a class="dropdown-item" href="#">Cemetery</a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    language
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="html2.html">arabic</a>
+                    <a class="dropdown-item" href="bootstr.html">english</a>
+            </ul>
+          </div>
+      </div>
+      </nav>
+      <!--end navbar-->
+
+      <!--start section of fci brief information-->
+      <section class="fci-info text-center">
+        <div class="container">
+          <h1>Faculty of Computers & Information</h1>
+          <hr>
+          <p class="lead">
+            you can learn how to deal with computers, it’s components, creating websites & games & applications, <br> how to deal with information and keeping it and how to organise your time...
+          </p>
+          <p class="lead">without <span>self study</span> you can’t learn anything.</p>
+        </div>
+      </section>
+      <!--end section of fci brief information-->
+
+      <!--start card members-->
+      <section class="fci-card text-center">
+        <div class="container">
+          <h2>FCI & Sohag University Heads</h2>
+          <div class="row">
+            <!--start card1 bootstrap V4-->
+            <div class="col-lg-6 col-12">
+              <div class="card text-center" style="width: 15rem;">
+                  <img src="fci-head.jpg" alt="elzanaty">
+                  <div class="card-body">
+                    <h2>El-nomery zanaty</h2>
+                    <p class="lead">the head of faculty of computers and information & he is lecturer at the faculty</p>
+                    <a href="#" class="btn btn-info">see more</a>
+                  </div>
+              </div>
+            </div>
+            <!--end card1-->
+            <!--start card2-->
+            <div class="col-lg-6 col-12">
+              <div class="card text-center" style="width: 15rem;">
+                  <img src="sohag-uni-head.jpg" alt="ahmed aziz">
+                  <div class="card-body">
+                    <h2>Ahmed aziz</h2>
+                    <p class="lead">the head of sohag university & he is respectfull person</p>
+                    <a href="#" class="btn btn-info">see more</a>
+                  </div>  
+              </div>
+            </div>
+            <!--end card2-->
+          </div>
+        </div>
+      </section>
+      <!--end card members-->
+
+      <!--start fci news-->
+      <section class="fci-news text-center">
+        <div class="news-container">
+          <div class="container">
+            <h2>Faculty News</h2>
+            <div class="row">
+              <div class="col-lg-4 col-12">
+                <div class="news">
+                  <h3>Current new</h3>
+                  <div class="news-img">
+                    <a href="">
+                      <img src="fci_logo.png" alt="faculty of computer science">
+                    </a>
+                  </div>
+                  <div class="p-cont">
+                    <p>study will start at 17th of October.</p>
+                    <p>at this year the faculty accepted Students from science department.</p>
+                    <div class="read">
+                      <a href="" class="read-more">
+                        <i class="fab fa-readme"></i>read more
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="news">
+                  <h3>New for each student</h3>
+                  <div class="news-img">
+                    <a href="">
+                      <img class="su-img" src="sohag-uni.jpg" alt="sohag university">
+                    </a>
+                  </div>
+                  <div class="p-cont">
+                    <p>each student can transform from and to sohag university starting at 16th of Augest & continue for 1 month.</p>
+                    <p>the university starts to acceptes new Students</p>
+                    <div class="read">
+                      <a href="" class="read-more">
+                        <i class="fab fa-readme"></i>read more
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="news">
+                  <h3>Graduations</h3>
+                  <div class="news-img">
+                    <a href="">
+                      <img class="su-img" src="sohag-uni.jpg" alt="sohag university">
+                    </a>
+                  </div>
+                  <div class="p-cont">
+                    <p>a new batch of Students are graduated at 8-2020</p>
+                    <div class="read">
+                      <a href="" class="read-more">
+                        <i class="fab fa-readme"></i>read more
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!--end fci news-->
+
+      <!--start fci departments section-->
+      <section class="fci-depart text-center">
+        <div class="container">
+          <h3>Departments</h3>
+          <div class="row">
+            <div class="col-lg-3 col-12">
+              <div class="dep-cont">
+                <div class="img fc-cs">
+                    <img src="CS.jpg" alt="Computer science">
+                </div>
+                <h4 class="text-center">CS</h4>
+                <div class="content">
+                  <p class="lead">interested in computers outside desgin,processing and controls data...</p>
+                  <div class="read">
+                    <a href="" class="read-more">
+                      <i class="fab fa-readme"></i>read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="dep-cont">
+                <div class="img">
+                    <img src="IT.jpg" alt="information Technology">
+                </div>
+                <h4>IT</h4>
+                <div class="content">
+                  <p class="lead">this course refere to improving company’s System and solving copmuters problems...</p>
+                  <div class="read">
+                    <a href="" class="read-more">
+                      <i class="fab fa-readme"></i>read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="dep-cont">
+                <div class="img">
+                    <img src="IS.jpg" alt="information System">
+                </div>
+                <h4>IS</h4>
+                <div class="content">
+                  <p class="lead">this field is interested in saving and organizing data, and transforming it into information...</p>
+                  <div class="read">
+                    <a href="" class="read-more">
+                      <i class="fab fa-readme"></i>read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="dep-cont">
+                <div class="img">
+                    <img src="Networks.jpg" alt="Networks">
+                </div>
+                <h4>CN</h4>
+                <div class="content">
+                  <p class="lead">envolving wireless, cables and how to connect computers with each other...</p>
+                  <div class="read">
+                    <a href="" class="read-more">
+                      <i class="fab fa-readme"></i>read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end fci departments section-->
+
+      <!--start enrolling-->
+      <section class="fci-enrolling">
+        <div class="container">
+          <h3 class="text-center">Enrolling form</h3>
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="enroll">
+                <label>name</label>
+                <input class="form-control" type="text" placeholder="write your name">
+                <label>email</label>
+                <input class="form-control" type="email" placeholder="your email">
+                <label>number</label>
+                <input class="form-control" type="tel" placeholder="your phone number">
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="enroll en-2">
+                <p class="lead">if you want to follow our news you can enroll now with this form.just write your personal information and click enroll</p>
+                <button class="btn btn-danger btn-block">enroll</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end enrolling-->
+
+      <!--start contact us-->
+      <section class="contact-us text-center">
+        <div class="container">
+          <h3>Conatct Us</h3>
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="contact-cont">
+                <p class="lead">you can follow us on social media</p>
+                <div class="social text-center">
+                  <i class="fab fa-facebook fa-2x"></i>
+                  <i class="fab fa-instagram fa-2x"></i>
+                  <i class="fab fa-whatsapp fa-2x"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="contact-cont">
+                <textarea cols="30" rows="5" placeholder="write your notice here"></textarea><br>
+                <button class="btn btn-info btn-blocks">send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end contact us-->
+
+      <!--start footer-->
+      <section class="footer text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="foot">
+                <p class="lead">All Rights Are Saved &copy; Faculty of Computers & Information S.U</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="foot">
+                <p class="lead">Desgined at 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end footer-->
+
+      <!--start loading & scroling top-->
+      <!--start loading section-->
+      <section class="loading">
+          <img src="cs-college.png" alt="computer science of sohag university">
+          <p class="lead">Faculty of Computers & Information</p>
+      </section>
+      <!--end loading section-->
+
+      <!--strt scrolling-->
+     <!-- <div class="scrolling">
+        <i class="fas fa-angle-double-up"></i>
+      </div>-->
+      <!--end scrolling-->
+      <!--start loading & scroling top-->
+
+      <!--[if lt IE 9] internet explorer-->
+      <script src="html5shiv.min.js"></script>
+      <script src="respond.min.js"></script>
+      <!--[endif]-->
+      <!--jquery file-->      
+      <script src="jquery-3.5.1.min.js"></script>
+      <!--boootstrap js file-->
+      <script src="bootstrap.min.js"></script>
+      <!--my project js file-->
+      <script src="JSbootstr.js"></script>
+      <script src="jquery.nicescroll.min.js"></script>
+    </body>
+</html>
